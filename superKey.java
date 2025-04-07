@@ -11,9 +11,7 @@ class baseClass {
     }
 }
 
-class ChildClass
-extend baseClass
-{
+class ChildClass extends baseClass {
 
     ChildClass() {
         super("Calling from ChildClass");
